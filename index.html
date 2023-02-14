@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daryl Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c63fa820ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">    
+    <div class="container">
+        <nav> 
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Video Editor / Web Design</p>
+            <h1>Hi, I'm Daryl <span>Guerrero</span> <br>from Philippines</h1>
+        </div>
+    </div>
+</div>
+<!-------------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hi there! Let me introduce myself as a highly skilled and creative video editor, web designer, and graphic designer. 
+                    With a passion for visual storytelling and a strong attention to detail, 
+                    I bring a unique perspective and skill set to each project I work on.
+
+                    As a video editor, I have experience in various editing software such as Adobe Premiere Pro and Sony Vegas Pro. 
+                    I am skilled in color correction, sound design, and visual effects, and 
+                    I have a keen eye for pacing, rhythm, and narrative.
+                    
+                    As a web designer, I have a deep understanding of user experience and the importance of creating websites that are 
+                    visually appealing, functional, and easy to navigate. I have experience in HTML, CSS, and JavaScript, and 
+                    I have a solid understanding of responsive design, ensuring that websites look great on any device. 
+                    
+                    As a graphic designer, I have a strong eye for typography, color, and composition. I have experience in Adobe Photoshop and 
+                    Illustrator, and I have a deep understanding of print production and design for the web. 
+                    I have worked on a range of projects, from logos and brand identities to print materials and digital advertising.
+                    
+                    Overall, my passion for design and my commitment to delivering high-quality work sets me apart in the industry. 
+                    I am always looking for new challenges and opportunities to learn and grow, and I am confident that I have the skills and 
+                    experience to bring your vision to life.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Video Editing</span><br>Video edit using Sony Vegas Pro 18</li>
+                            <li><span>Web Design</span><br>Deep knowledge on HTML and CSS and basic knowledge in JavaScript, using AI to be more productive and fast to do the task</li>
+                            <li><span>Graphic Design</span><br>Deep knowledge on Photoshop and adapt AI for more efficient and cost-effective design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020 - Present</span><br>IT Personnel at P.L. Sebastian Construction, Inc</li>
+                            <li><span>2019 - 2020</span><br>Technical Support at Apollo Global Technologies</li>
+                            <li><span>2016</span><br>IT Specialist at LeadSolutions Inc.</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2012 - 2016</span><br>Bachelor of Science in Information Technology</li>
+                            <li><span>2008 - 2012</span><br>High School at East Asian College High School</li>
+                            <li><span>2002 - 2008</span><br>Elementary education at Cabili Elementary School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>As a skilled and experienced video editor, I offer a vital service to businesses and individuals looking to create high-quality video content. 
+                    With a keen eye for detail and a passion for storytelling, I bring raw footage to life by combining it with audio, graphics, 
+                    and special effects to create a final product that not only meets but exceeds client expectations. 
+                    My expertise in editing software and techniques allows you to produce videos that are visually appealing, well-paced, and engaging. 
+                    Whether producing promotional videos, advertisements, or documentaries, I have the skills and expertise to help clients effectively communicate their message and reach their target audience.
+                </p>
+                 <!-- <a href='#'>Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Design</h2>
+                <p>As a web designer with a basic understanding of information technology, 
+                    I am seeking an opportunity to utilize my technical and creative skills to design websites that are 
+                    visually appealing, functional, and user-friendly. My goal is to bring my passion for web design, 
+                    attention to detail, and commitment to excellence to a dynamic organization where I can grow as a professional 
+                    and make a meaningful contribution to clients' online presence. By leveraging my foundation in HTML, CSS, and JavaScript, 
+                    I am confident in my ability to create custom websites that meet the unique needs of each client and effectively 
+                    communicate their message to their target audience.
+                </p>
+                <!-- <a href='#'>Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-image"></i>
+                <h2>Graphic Design</h2>
+                <p>As a talented graphic designer with a strong understanding of artificial intelligence, I offer businesses and individuals 
+                    a cutting-edge solution for their visual needs. I bring a unique blend of design skills and technical expertise to the table, 
+                    and use this combination to create innovative and effective visual solutions. 
+                    By leveraging AI technology, I am able to produce graphics that are not only visually appealing, 
+                    but also more efficient and cost-effective.
+                </p>
+                <!-- <a href='#'>Learn more</a> -->
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/work.png">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>The app connects you to talented people around the world.
+                        Download it from google play.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/logo12.png">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>The app connects you to talented people around the world.
+                        Download it from google play.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-AI.png">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>The app connects you to talented people around the world.
+                        Download it from google play.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- Contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>da.guerreroedits@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+63-9678875597</p>
+                <div class="social-icons">
+                    <a href="www.facebook.com/akocguerrero"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Daryl-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2022</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzzbAZCEmnxf2qeBh2iPheVDPXCeAcVQqk2BTqdS6hXAaniGfki6Quv4DwIOP7jmgmbnA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
